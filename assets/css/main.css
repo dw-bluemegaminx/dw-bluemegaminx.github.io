@@ -3916,3 +3916,9 @@ input, select, textarea {
   height: auto;
   display: block;
 }
+
+.spotlights > section {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: flex-start;
+}
