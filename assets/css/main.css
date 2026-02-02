@@ -3922,3 +3922,7 @@ input, select, textarea {
   grid-template-columns: 30% 70%;
   align-items: flex-start;
 }
+
+#one.spotlights section {
+  min-height: auto;
+}
