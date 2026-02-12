@@ -3926,3 +3926,16 @@ input, select, textarea {
 #one.spotlights section {
   min-height: auto;
 }
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2em;
+}
+
+.art-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
